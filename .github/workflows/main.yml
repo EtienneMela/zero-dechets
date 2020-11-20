@@ -1,0 +1,30 @@
+name: Deploy main
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Init project
+        uses: actions/checkout@v2
+      - name: Cache
+        uses: actions/cache@v2
+        id: cache-db
+        with:
+          path: ~/.symfony/cache
+          key: db
+      - name: PHP Linter
+        uses: michaelw90/PHP-Lint@master
+      - name: Security checker
+        uses: symfonycorp/security-checker-action@v2
+      - name: PHPStan
+        uses: docker://oskarstark/phpstan-ga
+      - name: Lint Yaml
+        uses: ibiqlik/action-yamllint@v1
+        with:
+          file_or_dir: config/packages/.
