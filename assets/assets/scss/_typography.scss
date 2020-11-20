@@ -1,0 +1,34 @@
+h1 {
+  margin: 0;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: "Anton", sans-serif;
+  font-weight: bold;
+  color: $color-yellow;
+}
+
+h2 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.p-italic {
+  font-style: italic;
+}
+
+.text--xl {
+  font-size: 6rem;
+  font-family: "Anton", sans-serif;
+}
+
+.text--md {
+  font-size: 2rem;
+}
+
+.title {
+  text-align: center;
+}
