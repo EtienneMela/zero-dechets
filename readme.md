@@ -1,6 +1,8 @@
 # Zero Déchêts - Green Dataviz Project
 
-###How to install & run
+![Deploy main](https://github.com/EtienneMela/zero-dechets/workflows/Deploy%20main/badge.svg?branch=main)
+
+### How to install & run
 
 #### Clone the repo
 `$ git clone git@github.com:EtienneMela/zero-dechets.git`
