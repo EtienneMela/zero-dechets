@@ -1,25 +1,25 @@
 # Zero Déchêts - Green Dataviz Project
 
-####How to install & run
+###How to install & run
 
-##### Clone the repo
+#### Clone the repo
 `$ git clone git@github.com:EtienneMela/zero-dechets.git`
 
-##### Go to project root
+#### Go to project root
 `$ cd zero-dechets`
 
-##### Install php dependencies
+#### Install php dependencies
 `$ composer install`
 
-##### Install javascript dependencies
+#### Install javascript dependencies
 `$ yarn install`
 
-##### Compile the assets and watch for modifications
+#### Compile the assets and watch for modifications
 `$ yarn encore dev --watch`
 
-##### Run local webserver
-###### Install Symfony locally
+#### Run local webserver
+##### Install Symfony locally
 [Installation steps here](https://symfony.com/download "Wassup")
-###### Launch the local webserver
+##### Launch the local webserver
 `$ symfony server:start`
-###### Your app points now to : https://127.0.0.1:8000  
+##### Your app points now to : https://127.0.0.1:8000  
