@@ -37,7 +37,7 @@ jobs:
           KEY: ${{ secrets.SSHKEY }}
         with:
           source: "."
-          target: "/home/grav/www/html"
+          target: "/var/www/html"
       - name: Executing remote  command
         uses: appleboy/ssh-action@master
         with:
