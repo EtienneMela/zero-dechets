@@ -2,6 +2,8 @@
 
 ![Deploy main](https://github.com/EtienneMela/zero-dechets/workflows/Deploy%20main/badge.svg?branch=main)
 
+Prod at [emel.digital](http://emel.digital "Hola")
+
 ### How to install & run
 
 #### Clone the repo
